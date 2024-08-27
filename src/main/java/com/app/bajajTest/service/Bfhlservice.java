@@ -20,7 +20,7 @@ public class Bfhlservice {
 		
 		for (String item : request.getData()) {
 			
-			if (item.matches("//d+")) {
+			if (item.matches("[0-9]+")) {
 				numbers.add(item);
 				
 			}else if(item.matches("[a-zA-Z]+")) {
